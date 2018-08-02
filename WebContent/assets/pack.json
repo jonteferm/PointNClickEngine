@@ -1,0 +1,15 @@
+{
+  "level": [{
+    "type": "image",
+    "key": "testfoto1",
+    "url": "assets/images/testfoto1.jpg",
+    "overwrite": false
+  }],
+  "meta": {
+    "generated": "1533211823723",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}
