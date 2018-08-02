@@ -12,9 +12,10 @@ Level.prototype.constructor = Level;
 
 Level.prototype = {
 	create: function(){
-		var background = this.game.add.tileSprite(0, 0, 1024, 768, 'testfoto1');
-	},
 
+		var background = this.game.add.tileSprite(0, 0, 1024, 768, 'testfoto1');
+
+	},
 	update: function(){
 	
 	},
