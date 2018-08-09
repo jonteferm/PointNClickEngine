@@ -14,7 +14,7 @@ Preload.prototype.preload = function() {
 	// Load the assets of the game, including the scripts.
 
 	this.load.pack("level", "assets/pack.json");
-
+	this.load.pack("ui", "assets/pack.json");
 };
 
 Preload.prototype.create = function() {

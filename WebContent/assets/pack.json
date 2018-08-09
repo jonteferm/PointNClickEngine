@@ -1,15 +1,53 @@
 {
-  "level": [{
-    "type": "image",
-    "key": "testfoto1",
-    "url": "assets/images/testfoto1.jpg",
-    "overwrite": false
-  }],
-  "meta": {
-    "generated": "1533211823723",
-    "app": "Phaser Editor",
-    "url": "http://phasereditor.boniatillo.com",
-    "version": "1.0",
-    "copyright": "Arian Fornaris (c) 2015,2016"
-  }
+    "level": [
+        {
+            "type": "image",
+            "key": "testfoto1",
+            "url": "assets/images/testfoto1.jpg",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "coronaAlfa",
+            "url": "assets/images/flares/coronaAlfa.png",
+            "overwrite": false
+        }
+    ],
+    "ui": [
+        {
+            "type": "image",
+            "key": "inventory",
+            "url": "assets/images/inventory.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "panel",
+            "url": "assets/images/panel.png",
+            "overwrite": false
+        },
+        {
+            "type": "bitmapFont",
+            "key": "font",
+            "textureURL": "assets/fonts/font_0.png",
+            "atlasURL": "assets/fonts/font.xml",
+            "xSpacing": 0,
+            "ySpacing": 0
+        },
+        {
+            "type": "bitmapFont",
+            "key": "smallFont",
+            "textureURL": "assets/fonts/smallFont_0.png",
+            "atlasURL": "assets/fonts/smallFont.xml",
+            "xSpacing": 0,
+            "ySpacing": 0
+        }
+    ],
+    "meta": {
+        "generated": "1533848988474",
+        "app": "Phaser Editor",
+        "url": "http://phasereditor.boniatillo.com",
+        "version": "1.0",
+        "copyright": "Arian Fornaris (c) 2015,2016"
+    }
 }
