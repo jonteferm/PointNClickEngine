@@ -11,6 +11,60 @@
             "key": "coronaAlfa",
             "url": "assets/images/flares/coronaAlfa.png",
             "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "mist",
+            "url": "assets/images/smoke/White puff/whitePuff00.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "corona",
+            "url": "assets/images/flares/corona.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "extend",
+            "url": "assets/images/flares/extend.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "extendring",
+            "url": "assets/images/flares/extendring.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "hexagon",
+            "url": "assets/images/flares/hexagon.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "hexangle",
+            "url": "assets/images/flares/hexangle.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "nova",
+            "url": "assets/images/flares/nova.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "pearl",
+            "url": "assets/images/flares/pearl.png",
+            "overwrite": false
+        },
+        {
+            "type": "image",
+            "key": "pearlring",
+            "url": "assets/images/flares/pearlring.png",
+            "overwrite": false
         }
     ],
     "ui": [
@@ -41,10 +95,16 @@
             "atlasURL": "assets/fonts/smallFont.xml",
             "xSpacing": 0,
             "ySpacing": 0
+        },
+        {
+            "type": "image",
+            "key": "pentagram",
+            "url": "assets/images/BurningPentagramAlpha.png",
+            "overwrite": false
         }
     ],
     "meta": {
-        "generated": "1533848988474",
+        "generated": "1534454463253",
         "app": "Phaser Editor",
         "url": "http://phasereditor.boniatillo.com",
         "version": "1.0",

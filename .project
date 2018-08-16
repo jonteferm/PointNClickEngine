@@ -20,4 +20,16 @@
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 		<nature>phasereditor.project.core.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>WebContent/lib/illuminated.js</name>
+			<type>1</type>
+			<location>C:/Users/Ferm/AppData/Local/Temp/Rar$DRa2668.44188/illuminated.js-master/src/illuminated.js</location>
+		</link>
+		<link>
+			<name>WebContent/lib/phaser-illuminated.0.1.0.min.js</name>
+			<type>1</type>
+			<location>C:/Users/Ferm/Desktop/phaser-illuminated.0.1.0.min.js</location>
+		</link>
+	</linkedResources>
 </projectDescription>
