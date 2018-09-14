@@ -14,7 +14,7 @@ Level.prototype = {
 	create: function(){
 
 		var background = this.game.add.tileSprite(0, 0, 1024, 768, 'testfoto1');
-		background.tint = 0x777777;
+		//background.tint = 0x777777;
 		
 		//TODO: Utfällbar kontrollpanel
 		this.controlPanel = new ControlPanel(this.game, this.game.camera.x, this.game.camera.y+(768-160));
@@ -101,18 +101,23 @@ Level.prototype = {
 			    	}
 			    }
 	        }
-	    };
+	    }; 
 	    
-	    
-	  
-
-	    
-
+	    //this.game.world.setBounds(-20, -20, game.width+20, game.height+2);
 	},
 
 	update: function(){
+		//this.shakeCanvas();
 
 	},
+	
+	
+	shakeCanvas: function() {
+        var min = -20;
+        var max = 20;
+		$('#demo_4_sketchpad_1').css('left',  Math.floor(Math.random() * (max - min + 1)) + min + 'px');
+		$('#demo_4_sketchpad_1').css('top', Math.floor(Math.random() * (max - min + 1)) + min + 'px');
+    },
 
 };
 
